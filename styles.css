@@ -1,3 +1,15 @@
-nav.bg-dark:hover {
-    background-color: black;
+.nav-logo {
+}
+
+.navbar {
+    padding: 0.8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
 }
