@@ -77,8 +77,8 @@ body {
 
 .industryColumn {
     float: left;
-    width: 16.66%;
-    padding: 50px;
+    width: 12.5%;
+    padding: 10px;
   }
   
 .industryRow::after {
