@@ -1,3 +1,5 @@
+/* Navigation Bar */
+
 .navbar {
     padding: 0.8rem;
 }
@@ -9,4 +11,27 @@
 .nav-link {
     font-size: 1.2em !important;
     font-weight: bold !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: aqua !important;
+}
+
+.nav-toggler {
+    color: black !important;
+}
+
+.nav-link.disabled {
+    color:rgba(255,255,255,.55) !important;
+}
+
+/* Main Image */
+
+.mainImage {
+    width: 100%;
+    z-index: 0;
 }
