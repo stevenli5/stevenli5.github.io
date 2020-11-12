@@ -19,7 +19,7 @@ body {
 }
 
 .nav-link {
-    font-size: 1.8em !important;
+    font-size: 1.7em !important;
 }
 
 .navbar-dark .navbar-text a{
@@ -43,6 +43,4 @@ body {
 .mainImage {
     width: 100%;
     z-index: 0;
-    border-top: 2px solid white; 
-    border-bottom: 2px solid white;
 }
