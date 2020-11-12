@@ -15,7 +15,7 @@ body {
 } 
 
 .navbar-nav li {
-    padding-right: 20px !important;
+    padding-right: 5px !important;
 }
 
 .nav-link {
@@ -36,6 +36,13 @@ body {
 
 .nav-link.disabled {
     color:rgba(255,255,255,.55) !important;
+}
+
+.navbar-icon {
+    float: right; 
+    padding-left: 10px;
+    width: 50px; 
+    height: 40px;
 }
 
 /* Main Image */
