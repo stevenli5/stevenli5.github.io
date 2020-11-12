@@ -19,8 +19,7 @@ body {
 }
 
 .nav-link {
-    font-size: 1.2em !important;
-    font-weight: bold !important;
+    font-size: 1.8em !important;
 }
 
 .navbar-dark .navbar-text a{
@@ -32,7 +31,7 @@ body {
 }
 
 .nav-link:hover {
-    color: aqua !important;
+    color: #5AB3FF !important;
 }
 
 .nav-link.disabled {
@@ -44,4 +43,6 @@ body {
 .mainImage {
     width: 100%;
     z-index: 0;
+    border-top: 2px solid white; 
+    border-bottom: 2px solid white;
 }
