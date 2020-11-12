@@ -1,7 +1,7 @@
 /* Body */
 
 body {
-    background-color: #343A40 !important; /* 32475B */
+    background-color: black !important; /* 32475B */
 }
 
 /* Navigation Bar */
@@ -15,7 +15,7 @@ body {
 } 
 
 .navbar-nav li {
-    padding-right: 20px;
+    padding-right: 20px !important;
 }
 
 .nav-link {
