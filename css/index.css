@@ -51,3 +51,20 @@ body {
     width: 100%;
     z-index: 0;
 }
+
+/* Main Image Caption */
+
+.jumbotron {
+    background-color: #263B51 !important;
+    border-radius: 0 !important;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 0.5em !important;
+}
+
+.lead {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    color: white !important;
+    text-align: center !important;
+}
