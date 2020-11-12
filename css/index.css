@@ -1,8 +1,18 @@
+/* Body */
+
+body {
+    background-color: #343A40 !important; /* 32475B */
+}
+
 /* Navigation Bar */
 
 .navbar {
     padding: 0.8rem;
 }
+
+.navbar-custom { 
+    background-color: #1D2E3F !important; 
+} 
 
 .navbar-nav li {
     padding-right: 20px;
@@ -13,16 +23,16 @@
     font-weight: bold !important;
 }
 
+.navbar-dark .navbar-text a{
+    color:#fff;
+}
+
 .nav-link {
     color: white !important;
 }
 
 .nav-link:hover {
     color: aqua !important;
-}
-
-.nav-toggler {
-    color: black !important;
 }
 
 .nav-link.disabled {
