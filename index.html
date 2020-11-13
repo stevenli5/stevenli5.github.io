@@ -53,14 +53,8 @@
 
     <!-- Main Image -->
     <div id="mainImage">
-        <img class="mainImage" src="images/Parliament2.png"> <!-- Source: https://wallpapercave.com/ottawa-wallpapers -->
+        <img class="mainImage" src="images/Parliament3.jpg"> <!-- Source: https://wallpapercave.com/ottawa-wallpapers -->
     </div>
-
-    <!-- Main Image Caption (may be removed)
-    <div class="jumbotron">
-        <p class="lead">Welcome to my personal Website!</p>
-    </div>
--->
 
     <!-- Industry Knowledge -->
     <div class="container-fluid padding">
@@ -71,41 +65,88 @@
             <br/><br/><br/>
         </div>
     </div>
-    <hr style="border-top: 2px solid white; margin: 1em 37.5em;">
-    <div class="industryRow container-fluid">
-        <div class="industryColumn">
-            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#visualstudiocodeInfo"><img class="industryImage" src="images/visualstudiocode-logo.png" alt="Visual Studio Code" title="Visual Studio Code"></button>
-        </div>
-        <div class="industryColumn">
-            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#html5Info"><img class="industryImage" src="images/html-logo.png" alt="HTML5" title="HTML5"></button>
-        </div>
-        <div class="industryColumn">
-            <img class="industryImage" src="images/css-logo.png" alt="CSS" title="CSS">
-        </div>
-        <div class="industryColumn">
-            <img class="industryImage" src="images/js-logo.png" alt="JavaScript" title="JavaScript">
-        </div>
-        <div class="industryColumn">
-            <img class="industryImage" src="images/java-logo.png" alt="Java" title="Java">
-        </div>
-        <div class="industryColumn">
-            <img class="industryImage" src="images/python-logo.png" alt="Python" title="Python">
-        </div>
-        <div class="industryColumn">
-            <a href="https://cruise.umple.org/umple/" target="_blank"><img class="industryImage" style="padding-top: 5px;" src="images/umple-logo.png" alt="Umple" title="Umple"></a>
-        </div>
-        <div class="industryColumn">
-            <img class="industryImage" src="images/androidstudio-logo.png" alt="Android Studio" title="Android Studio">
-        </div>
-    </div>
-    <hr class="industryhr">
+
+    <table>
+        <tr>
+        <td>
+            <div class="card">
+                <img class="card-img-top industryImage" src="images/html-logo.png" alt="HTML" title="HTML">
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text">Body paragraph.</p>
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#htmlInfo">Details</button>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="card">
+                <img class="card-img-top industryImage" src="images/css-logo.png" alt="CSS" title="CSS">
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">Body paragraph.</p>
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#cssInfo">More</button>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="card">
+                <img class="card-img-top industryImage" src="images/js-logo.png" alt="JavaScript" title="JavaScript">
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript</h5>
+                  <p class="card-text">Body paragraph.</p>
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#jsInfo">More</button>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="card">
+                <img class="card-img-top industryImage" src="images/java-logo.png" alt="Java" title="Java">
+                <div class="card-body">
+                  <h5 class="card-title">Java</h5>
+                  <p class="card-text">Body paragraph.</p>
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#javaInfo">More</button>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="card">
+                <img class="card-img-top industryImage" src="images/python-logo.png" alt="Python" title="Python">
+                <div class="card-body">
+                  <h5 class="card-title">Python</h5>
+                  <p class="card-text">Body paragraph.</p>
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#pythonInfo">More</button>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="card">
+                <a href="https://cruise.umple.org/umple/" target="_blank"><img class="card-img-top industryImage" src="images/umple-logo.png" alt="Umple" title="Umple"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Umple</h5>
+                  <p class="card-text">Body paragraph.</p>
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#umpleInfo">More</button>
+                </div>
+            </div>
+        </td>
+        <td>
+            <div class="card">
+                <img class="card-img-top industryImage" src="images/androidstudio-logo.png" alt="Android Studio" title="Android Studio"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Umple</h5>
+                  <p class="card-text">Body paragraph.</p>
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#umpleInfo">More</button>
+                </div>
+            </div>
+        </td>
+      </table>
+      <hr class="industryhr">
 
     <!-- Projects -->
-    <div class="modal fade" id="visualstudiocodeInfo" role="dialog">
+    <div class="modal fade" id="htmlInfo" role="dialog">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Visual Studio Code</h4>
+                <h4 class="modal-title">HTML</h4>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body" style="color: black;">
@@ -117,11 +158,75 @@
           </div>
         </div>
     </div>
-    <div class="modal fade" id="html5Info" role="dialog">
+    <div class="modal fade" id="cssInfo" role="dialog">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">HTML5</h4>
+                <h4 class="modal-title">CSS</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>This is a large modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="jsInfo" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">JavaScript</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>This is a large modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="javaInfo" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Java</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>This is a large modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="pythonInfo" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Python</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>This is a large modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="umpleInfo" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Umple</h4>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
