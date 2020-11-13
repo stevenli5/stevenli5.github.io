@@ -60,6 +60,9 @@ body {
     color: white;
 }
 
+.industryImage {
+    height: 15em;
+}
 
 table {
     table-layout: fixed;
