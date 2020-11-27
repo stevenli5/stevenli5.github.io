@@ -4,10 +4,16 @@ body {
     background-color: #32393F !important; /* 32475B */
 }
 
+html {
+    scroll-behavior: smooth;
+    transition-duration: 2s;
+}
+
 /* Navigation Bar */
 
 .navbar {
     padding: 0.8rem;
+    transition-duration: 2s;
 }
 
 .navbar-custom { 
