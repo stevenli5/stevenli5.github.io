@@ -51,12 +51,19 @@ html {
     height: 40px;
 }
 
-/* Main Image */
+/* Hero */
 
-.mainImage {
+#container {
+    position: relative;
     width: 100%;
     z-index: 0;
     border-bottom: 2px solid white;
+}
+
+#hero {
+    position: absolute;
+    top: 3%;
+    right: 1%;  
 }
 
 
